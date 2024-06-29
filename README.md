@@ -18,7 +18,8 @@ export AWS_SECRET_ACCESS_KEY=YOUR_ACCESS_KEY
 ```
 
 configurations in terminal
-* aws configure confirm `access_key`, `secret_key` and `region`
+* $ aws configure
+    - confirm as options `access_key`, `secret_key` and `region`
 
 
 
