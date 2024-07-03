@@ -5,3 +5,4 @@ desired_size = 1
 max_size = 4
 min_size = 1
 vpc_cidr_block = "10.0.0.0/16"
+bucket_tfstate="terraform-state-part3s"
