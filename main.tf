@@ -5,7 +5,7 @@ terraform {
     local = ">=2.5.1"
   }
   backend "s3" {
-    bucket = "terraform-state"
+    bucket = var.bucket_tfstate
     key    = "terraform.tfstate"
     region = "us-east-1"
   }
